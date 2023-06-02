@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+   border-radius: 0.5rem;
+    width: 20rem;
+    background-color: rgb(22, 19, 19);
+    border: 2px solid black;
+}
+.greyButton{
+    background-color: rgb(53, 45, 45);
+    color: antiquewhite;
+}
+.greyButton:hover{
+    background-color: rgb(37, 31, 31);
+}
+.blueButton{
+    color: rgb(187, 52, 187);
+    background-color: rgb(53, 45, 45);
+}
+.blueButton:hover{
+    background-color: rgb(37, 31, 31);
+}
+td{
+     border: 1.8px solid black;
+ height: 3.9rem;
+    width: 7rem;
+    margin: 0;
+ text-align: center;
+ cursor: pointer;
+}
+.userInput{
+    height: 4rem;
+    text-align: right;
+    color: antiquewhite;
+    font-size: 2.2rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+}
+.result{
+    height: 4rem;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: antiquewhite;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+.mainparent{
+    height: 100vh;
+    background: linear-gradient(rgb(91, 91, 214),rgb(209, 18, 50));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pinkColour{
+    background-color: rgb(226, 50, 226);
+    color: antiquewhite;
+}
+.pinkColour:hover{
+    background-color:  rgb(155, 64, 155);
+}
+.buttons{
+    
+    font-size: 1.5rem;
+
+    text-align: center;
+}
