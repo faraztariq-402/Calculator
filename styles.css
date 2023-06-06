@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .parent{
    border-radius: 0.5rem;
     width: 20rem;
@@ -39,7 +40,11 @@ td{
         display: flex;
         justify-content: flex-end;
         align-items: end;
+         white-space: nowrap; 
+   overflow: hidden; 
+  text-overflow: ellipsis;
 }
+
 .result{
     height: 4rem;
     text-align: right;
@@ -49,6 +54,9 @@ td{
     color: antiquewhite;
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
+   white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
 }
 .mainparent{
     height: 100vh;
@@ -56,6 +64,7 @@ td{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 .pinkColour{
     background-color: rgb(226, 50, 226);
