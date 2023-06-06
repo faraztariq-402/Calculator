@@ -88,7 +88,7 @@ six.addEventListener("click", function () {
 zero.addEventListener("click", function () {
     userInput.innerHTML += 0
      audio.play();
-    audio.loop = falseserInput.innerHTML += 0
+    audio.loop = false
 
 
 })
